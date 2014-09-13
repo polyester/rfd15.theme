@@ -19,8 +19,8 @@
                type="text"
                size="18"
                value=""
-               title="Search"
-               placeholder="Search"
+               title="Zoek"
+               placeholder="Zoek"
                accesskey="4"
                tal:attributes="value request/form/SearchableText|nothing;
                                id search_input_id"

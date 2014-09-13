@@ -30,7 +30,7 @@
     <drop css:content=".documentActions" />
 
     <!--Search Box-->
-    <before css:theme="div#nav" css:content="#portal-searchbox" />
+    <before css:theme="div#payoff" css:content="#portal-searchbox" />
 
     <!--Content-->
     <merge attributes="class" css:content="body" css:theme="body" />
