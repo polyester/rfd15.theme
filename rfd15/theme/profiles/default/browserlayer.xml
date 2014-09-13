@@ -1,0 +1,4 @@
+<layers>
+    <layer name="rfd15 Plone"
+           interface="rfd15.theme.browser.interfaces.IThemeSpecific" />
+</layers>
