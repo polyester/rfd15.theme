@@ -2,35 +2,36 @@
 /* reset */
 * {margin:0; padding:0; vertical-align:baseline;}
 
-/* palette: #610BFF lightest, #570AE5 most lila, #4809BF light, #30067F darker, #180340 almost black */
+/* palette: #00207F lightest, #0040FF most lila, #0033CC light, #00207F darker, #00207F almost black */
+/* blues: #00207F dark, ; #0033CC brighter ; #0040FF brightest; /*
 
 /* Colors and fonts */
 body {
     background: #FFFFFF;
-    color: #000000; 
-    font-family: "Roboto", Arial, Helvetica, sans-serif; 
+    color: #000000;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 100%;
     font-weight: 300;
 }
-a:link, a:visited, #content a:link, #content a:visited, dl.portlet a:link {color:#4809BF;}
-a:hover {color:#30067F;}
+a:link, a:visited, #content a:link, #content a:visited, dl.portlet a:link {color:#0033CC;}
+a:hover {color:#00207F;}
 h1, h2, h3, h4, h5, h6 {font-family: "Roboto", Arial, Helvetica, sans-serif;}
-h1 {color: #570AE5;}
-h2, h3, h4, h5, h6 {color: #570AE5;}
+h1 {color: #00207F;}
+h2, h3, h4, h5, h6 {color: #00207F;}
 .wrapper { width:auto; margin: 0 auto; max-width: 1280px;}
 #main {background:#FFFFFF; font-size: 1.3em; padding: 1em 0;}
 /* navigation */
-#nav {background: transparent;  
+#nav {background: transparent;
       text-align: left;
-      color: #610BFF;
-      font-family: "Roboto", Arial, Helvetica, sans-serif; 
+      color: #00207F;
+      font-family: "Roboto", Arial, Helvetica, sans-serif;
       font-size: 180%;
       font-weight: 500;
       padding: 1.3em 2em 1em 1em;}
-#nav a {color: #610BFF; padding: 1.1em 1.1em 1em 0.8em; text-decoration: none;}
+#nav a {color: #00207F; padding: 1.1em 1.1em 1em 0.8em; text-decoration: none;}
 #nav a:hover, #nav li.selected a {
-    color: #30067F;
-    border-bottom: 3px solid #570AE5;
+    color: #0040FF;
+    border-bottom: 3px solid #0040FF;
 }
 #nav ul {padding-top: 0;}
 #nav li {display: inline; }
@@ -70,9 +71,9 @@ font-size: 1.5em;
 #content {font-size: 110%;}
 p {line-height: 1.6em; margin: 0 0 1em 0;}
 h1, h2, h3 {margin: 0.5em 0 1.2em 0;}
-.hidden {display: none;} 
+.hidden {display: none;}
 .clear {clear: both;}
-.pb-ajax, .pb-image, 
+.pb-ajax, .pb-image,
 .overlay iframe {font-size: 1.3em;}
 div.overlay-iframe, div.overlay-ajax {left:11%!Important; width:75%;}
 .portlet img, #content img {max-width:100%;}
@@ -111,7 +112,7 @@ img, img.image-left, img.image-right, .captioned img {
     font-weight: 500;
     font-family: "Roboto", Arial,Helvetica,sans-serif;
     margin: 1em 3em 0 0;
-    color: #570AE5;
+    color: #00207F;
 }
 #logo
 {
@@ -123,7 +124,7 @@ img, img.image-left, img.image-right, .captioned img {
 }
 
 #logo a {display:block; width:100%;}
-#logo a:hover,a:focus {text-decoration: none;color: #570AE5;}
+#logo a:hover,a:focus {text-decoration: none;color: #00207F;}
 
 
 
@@ -199,7 +200,7 @@ div#portal-searchbox
     height: 46px;
     clear: none;
     margin: 0;
-    color: #4809BF;
+    color: #00207F;
 }
 
 #portal-searchbox #searchGadget
@@ -207,7 +208,7 @@ div#portal-searchbox
     padding: 0 10px 0 0;
     margin: 0px;
     width: 60%;
-    background-color: #eeeeee;
+    background-color: #F5F5F5;
     border-radius: 3px;
     border-width: 0px;
 }
@@ -219,7 +220,7 @@ div#portal-searchbox
     font-size: 143%;
 }
 
-div.LSBox input#searchGadget 
+div.LSBox input#searchGadget
 {
      border-radius: 0px
 }
@@ -296,20 +297,20 @@ dl.portlet li:last-child
 }
 #content .documentDescription
 {
-	font: 14px "Roboto",Arial,Helvetica,sans-serif;
+    font: 14px "Roboto",Arial,Helvetica,sans-serif;
     font-weight: 500;
-	color: black;
-	margin-bottom: 1em;
+    color: black;
+    margin-bottom: 1em;
 }
 
 #content h1.documentFirstHeading
 {
     font-size: 210%;
     line-height: 120%;
-	font-weight: 500;
-	letter-spacing: 0;
-	font-family: "Roboto", Arial,Helvetica,sans-serif;
-	color: #570AE5;
+    font-weight: 500;
+    letter-spacing: 0;
+    font-family: "Roboto", Arial,Helvetica,sans-serif;
+    color: #00207F;
 }
 
 #content h1
@@ -319,7 +320,7 @@ dl.portlet li:last-child
     font-weight: 500;
     letter-spacing: 0;
     font-family: "Roboto", Arial,Helvetica,sans-serif;
-    color: #570AE5;
+    color: #00207F;
 }
 
 #content h2
@@ -329,7 +330,7 @@ dl.portlet li:last-child
     font-weight: 500;
     letter-spacing: 0;
     font-family: "Roboto", Arial,Helvetica,sans-serif;
-    color: #570AE5;
+    color: #00207F;
 }
 
 #content h3
@@ -343,10 +344,10 @@ dl.portlet li:last-child
 
 #content h1 a:link, #content h1 a:visited
 {
-	font-weight: 500;
-	letter-spacing: 0;
-	font-family: "Roboto", Arial,Helvetica,sans-serif;
-	border-bottom: none;
+    font-weight: 500;
+    letter-spacing: 0;
+    font-family: "Roboto", Arial,Helvetica,sans-serif;
+    border-bottom: none;
 }
 
 #category {
@@ -360,7 +361,7 @@ dl.portlet li:last-child
     border-radius:0;
     color: black;
     padding: 0.25em 0em 0.1em;
-    border-bottom: 0.1em solid #4809BF;
+    border-bottom: 0.1em solid #0033CC;
     line-height: 1.6em;
 }
 #category a.link-category:hover {
@@ -373,7 +374,7 @@ dl.portlet li:last-child
 }
 #content h2 > a:link , #content h2 > a:visited{
     font-weight:500;
-    color: #570AE5;
+    color: #0033CC;
     text-decoration:none;
 }
 
@@ -382,9 +383,9 @@ dl.portlet li:last-child
     border-bottom: none;
 }
 #content a:hover, dl.portlet a:hover {
-    color: #4809BF!important;
+    color: #0033CC!important;
 }
-#content h2 > a:hover{color: #570AE5;}
+#content h2 > a:hover{color: #0033CC;}
 #content div.newsImageContainer p.discreet {
     background-color: rgba(40, 40, 40, 0.7);
     color: White;
@@ -440,7 +441,7 @@ dl.portlet li:last-child
     display: block;
     max-width: 100%;
     padding-rigth: 0.5 em;
-} 
+}
 
 #relatedItemBox dt
 {
@@ -456,7 +457,7 @@ dl.portlet li:last-child
 
 #doormat-wrapper
 {
-    background-color: #180340;
+    background-color: #00207F;
     font-size: 110%;
     line-height: 2em;
 }
@@ -490,11 +491,11 @@ dl.portlet li:last-child
 
 .biggallery .galleria-thumbnails-container {
     display: none;
-}    
+}
 .biggallery .galleria-info-description {
     font: italic 12px/1.4 arial,sans-serif;
     margin: 0;
-    color: #180340;
+    color: #00207F;
 }
 
 .biggallery .galleria-inner {
@@ -732,13 +733,13 @@ body.template-register #content input, body.template-new-user #content input {
     #payoff {
         bottom: 0!important;
         font-size: 125%!important;
-    }   
+    }
 
     .wrapper {max-width: 100%;}
     #logo {min-width:174px; float: none;}
-    
+
     /*Columns*/
-    #portal-column-one, 
+    #portal-column-one,
     #portal-column-two,
     #portal-column-content {clear: both; width: 97.75%; margin-left: -98.875%;}
 
@@ -748,53 +749,53 @@ body.template-register #content input, body.template-new-user #content input {
     /*Global navigation*/
     #nav {padding:0;width:100%;
     }
-    
+
     #searchbt {display:block; float:right;width:20%; background-color: #fafafa;}
-    
+
     #searchbt a {
         display:block;
         text-align: center;
         padding: 1em;
-        
+
     }
-    
+
     #nav #seletor {
         display:block;
         padding:1em;
         width:80%;
-        color: #610BFF;
+        color: #00207F;
         background-color: #fafafa;
      }
      #nav #navicon{text-align: right;}
-    
+
     #nav li {display: none;}
-    
+
     #nav:hover li {
         display: block;
-        width:100%; 
+        width:100%;
         display:block !Important;
         padding:0;
     }
-    
+
     #nav ul {
         width:97.5%;
         margin:0;
         padding:0;
     }
-    
+
     #nav:hover li a {
-        color: #610BFF;
+        color: #00207F;
         width:100%;
         padding:0 2.5%;
         line-height: 3em;
       display: block;
       width: 95% !important;
     }
-    
-    #nav:hover li:hover {background: #610BFF;}
+
+    #nav:hover li:hover {background: #00207F;}
     #nav:hover li a:hover,
-    #nav:hover li.selected a {background: #610BFF; color: #ffffff;}
-    
+    #nav:hover li.selected a {background: #00207F; color: #ffffff;}
+
 .overlay.overlay-ajax {top: 10px !Important;}
 .overlay.overlay-ajax input.searchPage {
     font-size: 200% !important;
@@ -812,7 +813,7 @@ body.template-register #content input, body.template-new-user #content input {
     #payoff {display:none;}
 
     #portal-breadcrumbs {display:none;}
-    
+
     #portal-searchbox {
         float: none;
         width:80%;
