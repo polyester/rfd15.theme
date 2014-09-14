@@ -21,23 +21,93 @@ h2, h3, h4, h5, h6 {color: #00207F;}
 .wrapper { width:auto; margin: 0 auto; max-width: 1280px;}
 #main {background:#FFFFFF; font-size: 1.3em; padding: 1em 0;}
 /* navigation */
-#nav {background: transparent;
+#rfd15 #portal-globalnav {background: transparent;
       text-align: left;
       color: #00207F;
       font-family: "Roboto", Arial, Helvetica, sans-serif;
-      font-size: 180%;
+      font-size: 170%;
       font-weight: 500;
-      padding: 1.3em 2em 1em 1em;}
-#nav a {color: #00207F; padding: 1.1em 1.1em 1em 0.8em; text-decoration: none;}
-#nav a:hover, #nav li.selected a {
-    color: #0040FF;
-    border-bottom: 3px solid #0040FF;
+      padding: 0em 2em 0em 1em;}
+#rfd15 #portal-globalnav a {color: #00207F; padding: 1.1em 1.1em 1em 0.8em; text-decoration: none;}
+#rfd15 #portal-globalnav a, #portal-globalnav li {
+    border-top: 3px solid white;
 }
-#nav ul {padding-top: 0;}
-#nav li {display: inline; }
+#rfd15 #portal-globalnav a:hover, #portal-globalnav li.selected a {
+    color: #0040FF;
+    border-top: 3px solid #0040FF;
+}
+
+
+#rfd15 #portal-globalnav li.selected a {
+  background-color:white;
+}
+#rfd15 #portal-globalnav li a {
+  line-height: 0em;
+  background-color: white;
+}
+
+
+#portal-globalnav li {display: inline; }
+a.hasChildrens:after {
+   font-family: FontAwesome;
+   content: "\f078";
+   display: inline-block;
+   margin-left: 1em;
+   vertical-align: middle;
+}
+#rfd15 #portal-globalnav li a span{display:inline;}
+
+#rfd15 #portal-globalnav ul li a.hasChildrens:after {
+   font-family: FontAwesome;
+   content: "\f054";
+   display: inline-block;
+   margin-left: 1em;
+   vertical-align: middle;
+  }
+#rfd15 #portal-globalnav ul li a.hasChildrens:hover {
+  }
+#rfd15 #portal-globalnav li:hover > ul {
+  box-shadow: 10px 10px 5px #888888;
+  }
+#rfd15 #portal-globalnav ul ul {
+  box-shadow: 10px 10px 5px #888888;
+  }
+#rfd15 #portal-globalnav li.selected ul li a {
+  background-color:#ddd;
+  color:#205C90;
+  }
+
+
+
+#rfd15 .mobileMenu select {
+   background: transparent;
+   width: 320px;
+   padding: 5px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   height: 40px;
+    -webkit-appearance: none;
+}
+
+#rfd15 .mobileMenu{
+   width: 300px;
+   height: 40px;
+   overflow: hidden;
+   background: url(navicon.svg) no-repeat 96% #fff;
+   color: #205C90
+   font-weight: 500;
+   font-family: "Roboto", Arial, Helvetica, sans-serif;
+    margin: 0 0 0.5em;
+    padding: 0.5em;
+    float: left;
+    display: none;
+}
+
+
+
 
 /* search */
-#searchbt, #nav #seletor {display:none;}
+#searchbt, #portal-globalnav #seletor {display:none;}
 
 #portal-searchbox .searchButton {
 background:transparent;
@@ -730,6 +800,13 @@ body.template-register #content input, body.template-new-user #content input {
 
 @media screen and (max-width: 768px) {
 
+#portal-globalnav.mobileMenuOn {
+    display: none;
+}
+#rfd15 .mobileMenu{
+    display: block;
+}
+
     #payoff {
         bottom: 0!important;
         font-size: 125%!important;
@@ -747,28 +824,29 @@ body.template-register #content input, body.template-new-user #content input {
     #portal-searchbox  {display:none;}
 
     /*Global navigation*/
-    #nav {padding:0;width:100%;
+    #portal-globalnav {padding:0;width:100%;
     }
 
-    #searchbt {display:block; float:right;width:20%; background-color: #fafafa;}
+    #searchbt {display:block; float:right;width:20%; }
 
     #searchbt a {
         display:block;
         text-align: center;
         padding: 1em;
+        color: #0040FF;
 
     }
 
-    #nav #seletor {
+    #portal-globalnav #seletor {
         display:block;
         padding:1em;
         width:80%;
         color: #00207F;
         background-color: #fafafa;
      }
-     #nav #navicon{text-align: right;}
+     #portal-globalnav #navicon{text-align: right;}
 
-    #nav li {display: none;}
+    #portal-globalnav li {display: none;}
 
     #nav:hover li {
         display: block;
@@ -777,7 +855,7 @@ body.template-register #content input, body.template-new-user #content input {
         padding:0;
     }
 
-    #nav ul {
+    #portal-globalnav ul {
         width:97.5%;
         margin:0;
         padding:0;

@@ -19,7 +19,9 @@
     <copy css:content="head base" css:theme="head base" />
 
     <!--Portal Tabs-->
-    <replace css:content="#portal-globalnav li" css:theme-children="#nav ul" />
+    <before method="raw" css:theme="div#searchbt" css:content="div.mobileMenu" />
+    <replace css:content="#portal-globalnav" css:theme="#nav" />
+
 
     <!--Breadcrumbs-->
     <replace method="raw" css:content="#portal-breadcrumbs" css:theme="#breadcrumbs" />
