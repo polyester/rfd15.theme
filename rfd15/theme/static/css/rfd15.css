@@ -562,8 +562,8 @@ dl.portlet li:last-child
 
 #content .tile img
 {
-    float: left;
-    margin-right: 25px;
+    float: none;
+    margin-right: auto;
     margin-bottom: 5px;
 }
 
