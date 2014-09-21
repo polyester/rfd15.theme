@@ -61,6 +61,9 @@
     <!-- Control Panel -->
     <after css:content="#visual-portal-wrapper .row:last-child script" css:theme="#wrapper" />
 
+    <!-- Modals, for wildcard etcetera -->
+    <after css:content=".modal-wrapper" css:theme="#wrapper" />
+
 <!-- XSLT FIXES-->
     <!-- fix cover -->
     <xsl:template match="body[contains(@class, 'portaltype-collective-cover-content')]//div[contains(@class, 'width-1')]">
