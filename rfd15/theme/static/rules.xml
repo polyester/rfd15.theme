@@ -6,6 +6,9 @@
 
     <theme href="index.html" css:if-content="#visual-portal-wrapper" />
     <notheme if-path="@@manage-viewlets/" />
+    <!-- for wildcard.foldercontents -->
+    <notheme if-path="folder_contents" />
+
 
     <!--Head-->
     <copy css:content="html" css:theme="html" attributes="lang dir" />
