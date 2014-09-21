@@ -41,7 +41,10 @@
     <replace css:content="#portal-columns" css:theme="#content" />
 
     <!--doormat-->
-    <!-- <replace css:theme="div#doormat div" css:content="div#c-doormat-sitemap" /> -->
+    <replace css:theme="div#doormat div" css:content="div#c-doormat" />
+    <!-- drop title for covers -->
+    <drop css:content="body.portaltype-collective-cover-content h1.documentFirstHeading"/>
+        <drop css:content="body.portaltype-collective-cover-content div#viewlet-below-content-title"/>
 
     <!--Viewlets-->
     <replace css:content="#portal-personaltools" css:theme="#user" />
