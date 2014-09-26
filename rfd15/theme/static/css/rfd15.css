@@ -171,7 +171,8 @@ a.hasChildrens:after {
 }
 }
 
-
+/*plonetruegallery*/
+#content .ContentFlow .scrollbar{display:none;}
 
 /* search */
 #searchbt, #portal-globalnav #seletor {display:none;}
