@@ -135,9 +135,7 @@ a.hasChildrens:after {
     line-height: 1.5em;
 }
 #content #slider-wrapper ul.slick-dots {display: none!important;}
-#slider-wrapper .sliderText a {
-    color: #000;
-}
+
 #slider-panes .slick-prev:before {
     font-family: FontAwesome;
     content: "\f053";
