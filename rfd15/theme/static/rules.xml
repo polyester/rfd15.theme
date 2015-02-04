@@ -27,8 +27,11 @@
 
 
     <!--Breadcrumbs-->
-    <replace method="raw" css:content="#portal-breadcrumbs" css:theme="#breadcrumbs" />
-    <drop css:content="#portal-breadcrumbs" />
+<replace method="raw" css:content="#nobreadcrumbs" css:theme="#breadcrumbs" />
+<drop css:content="#portal-breadcrumbs" />
+    <!--social likes-->
+<before method="raw" css:content="#viewlet-social-like" css:theme="#doormat-wrapper" />
+<drop css:content="#viewlet-social-like" />
 
     <!--Document Actions-->
     <before method="raw" css:theme="div#payoff" css:content="div.documentActions" />

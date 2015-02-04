@@ -119,20 +119,10 @@ a.hasChildrens:after {
     bottom: 0;
 }
 #content #slider-wrapper .sliderText h2.documentFirstHeading{
-    font-size: 300%;
-    background: none;
-    color: rgba(255,255,255,0.7);
-    margin: 0 14px 0 14px;
-    line-height: 1.2em;
-    font-weight: 500;
+    display:none;
 }
 #content #slider-wrapper .sliderText span p{
-    font-size: 100%;
-    background: rgba(255,255,255,0.6);
-    color: #00207F;
-    padding: 0 14px 0 14px;
-    margin-bottom: 0;
-    line-height: 1.5em;
+    display: none;
 }
 #content #slider-wrapper ul.slick-dots {display: none!important;}
 
@@ -193,6 +183,9 @@ font-size: 1.5em;
 #portal-searchbox .searchButton {text-align:center;}
 #LSResult {z-index:1; margin-top: 0.5%;color: #000000;}
 
+#viewlet-social-like {
+    margin: 15px;
+}
 
 /*doormat*/
 #doormat #c-doormat{background-color: #00207F; color: #FFFFFF;
